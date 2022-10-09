@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1014%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1076.0305516709664 160.68501275152633L968.645180713097 108.30966780013941 916.26983576171 215.69503875800876 1023.6552067195794 268.0703837093957z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M585.5127479719183 159.00211041639596L676.4955337322775 29.06522628489401 546.5586496007755-61.9175594754652 455.57586384041633 68.01932465603676z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M138.74170581003625 192.1222601833492L194.61725563393367 171.78522322419235 136.1739252832497 98.14041696792464z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1230.11 401.5 a166.51 166.51 0 1 0 333.02 0 a166.51 166.51 0 1 0 -333.02 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1014.27 237.15 a153.31 153.31 0 1 0 306.62 0 a153.31 153.31 0 1 0 -306.62 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-57.28 25.2 a151.08 151.08 0 1 0 302.16 0 a151.08 151.08 0 1 0 -302.16 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M746.7655627282459 351.68100433982244L619.0425605244955 353.7886597949162 674.8751566663008 450.49355303099696z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M320.65194592593605 162.23550443285188L275.9859578601369 90.75498145741811 191.0981674298858 193.49422504383364z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M702.941751467201 171.1904423621976L561.4960301249786 173.52454695606727 623.3273502429357 280.61953489942465z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M948.2728991898032 271.92394045173126L878.1885219504145 134.37560540992106 740.6401869086044 204.45998264930972 810.724564147993 342.00831769111994z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1204.64 414.89 a162.24 162.24 0 1 0 324.48 0 a162.24 162.24 0 1 0 -324.48 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1014'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    /* background: linear-gradient(0deg, rgb(253, 143, 103), rgb(212,99,163));
+    min-height: 110vh; */
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(82, 128, 251);
+}
+section {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p{
+    color: white;
+}
+.logo{
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+.inner-link {
+    
+    padding: 20px;
+    transition: 0.1s ease-in;
+    /* border: 2px solid rgb(185, 191, 208); */
+}
+.inner-link:hover {
+    background-color: transparent;
+}
+.sub-head {
+    font-size: 13px;
+}
+.links-section {
+    margin-top: 30px;
+}
+.sub-sec {
+    margin: 15px 0px;
+}
+.instagram{
+    background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  padding: 15px;
+}
+
+.logo-insta{
+    padding-right: 50px;
+}
+
+    .pinterest{
+        background-color: white;
+    }
+.youtube{
+    background-color: #FF0000;
+}
+.twitter{
+    background-color: #1DA1F2;
+    
+}
+@media screen and (max-width: 720px) {
+    section {
+        width: 100%;
+    }
+}
